@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Charles\\source\\repos\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj": {}
+    "C:\\Users\\Charles\\source\\repos\\Contact-Tracing-Program\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Charles\\source\\repos\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj": {
+    "C:\\Users\\Charles\\source\\repos\\Contact-Tracing-Program\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Charles\\source\\repos\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj",
+        "projectUniqueName": "C:\\Users\\Charles\\source\\repos\\Contact-Tracing-Program\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj",
         "projectName": "Contact Tracing Program",
-        "projectPath": "C:\\Users\\Charles\\source\\repos\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj",
+        "projectPath": "C:\\Users\\Charles\\source\\repos\\Contact-Tracing-Program\\Contact Tracing Program\\Contact Tracing Program\\Contact Tracing Program.csproj",
         "packagesPath": "C:\\Users\\Charles\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Charles\\source\\repos\\Contact Tracing Program\\Contact Tracing Program\\obj\\",
+        "outputPath": "C:\\Users\\Charles\\source\\repos\\Contact-Tracing-Program\\Contact Tracing Program\\Contact Tracing Program\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
