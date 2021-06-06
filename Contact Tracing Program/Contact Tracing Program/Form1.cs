@@ -27,6 +27,7 @@ namespace Contact_Tracing_Program
         private void SaveButton_Click(object sender, EventArgs e)
         {
             Button b = (Button)sender;
+            b.Enabled = false;
 
             StreamWriter outputfile;
             outputfile = File.AppendText("ContactTracing.txt");
@@ -51,9 +52,64 @@ namespace Contact_Tracing_Program
             outputfile.WriteLine(DateBox3.Text);
 
             outputfile.Close();
-
-            b.Enabled = false;
-            
+            {
+                if (NameBox1.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (NameBox3.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (AgeBox.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (SexBox.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (TempBox.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (HouseBox1.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (HouseBox2.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (HouseBox3.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (HouseBox4.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (HouseBox5.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (DateBox1.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (DateBox2.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else if (DateBox3.Text == "")
+                {
+                    MessageBox.Show("Please fill up the form completely.");
+                }
+                else
+                {
+                    MessageBox.Show("nice.");
+                }
+            }
         }
 
         private void NewButton_Click(object sender, EventArgs e)

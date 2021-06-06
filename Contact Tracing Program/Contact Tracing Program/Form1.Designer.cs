@@ -30,6 +30,7 @@ namespace Contact_Tracing_Program
         private void InitializeComponent()
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
+            this.SexBox = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
             this.NewButton = new System.Windows.Forms.Button();
             this.SaveButton = new System.Windows.Forms.Button();
@@ -52,7 +53,6 @@ namespace Contact_Tracing_Program
             this.HouseBox2 = new System.Windows.Forms.TextBox();
             this.HouseBox1 = new System.Windows.Forms.TextBox();
             this.ASTGroup = new System.Windows.Forms.GroupBox();
-            this.SexBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
@@ -72,6 +72,15 @@ namespace Contact_Tracing_Program
             this.ASTGroup.SuspendLayout();
             this.NameGroup.SuspendLayout();
             this.SuspendLayout();
+            // 
+            // SexBox
+            // 
+            this.SexBox.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.SexBox.Items.AddRange(new object[] {
+            resources.GetString("SexBox.Items"),
+            resources.GetString("SexBox.Items1")});
+            resources.ApplyResources(this.SexBox, "SexBox");
+            this.SexBox.Name = "SexBox";
             // 
             // groupBox1
             // 
@@ -124,6 +133,7 @@ namespace Contact_Tracing_Program
             // 
             // DateBox1
             // 
+            this.DateBox1.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
             this.DateBox1.FormattingEnabled = true;
             this.DateBox1.Items.AddRange(new object[] {
             resources.GetString("DateBox1.Items"),
@@ -233,14 +243,6 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.ASTGroup, "ASTGroup");
             this.ASTGroup.Name = "ASTGroup";
             this.ASTGroup.TabStop = false;
-            // 
-            // SexBox
-            // 
-            this.SexBox.Items.AddRange(new object[] {
-            resources.GetString("SexBox.Items"),
-            resources.GetString("SexBox.Items1")});
-            resources.ApplyResources(this.SexBox, "SexBox");
-            this.SexBox.Name = "SexBox";
             // 
             // label4
             // 
