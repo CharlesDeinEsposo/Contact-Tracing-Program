@@ -58,33 +58,33 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button2.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+  <data name="NewButton.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <assembly alias="System.Drawing.Primitives" name="System.Drawing.Primitives, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
+  <data name="NewButton.Location" type="System.Drawing.Point, System.Drawing.Primitives">
     <value>240, 529</value>
   </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
+  <data name="NewButton.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>202, 33</value>
   </data>
   <assembly alias="System.Private.CoreLib" name="System.Private.CoreLib, Version=5.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e" />
-  <data name="button2.TabIndex" type="System.Int32, System.Private.CoreLib">
+  <data name="NewButton.TabIndex" type="System.Int32, System.Private.CoreLib">
     <value>9</value>
   </data>
-  <data name="button2.Text" xml:space="preserve">
+  <data name="NewButton.Text" xml:space="preserve">
     <value>Create New</value>
   </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
+  <data name="&gt;&gt;NewButton.Name" xml:space="preserve">
+    <value>NewButton</value>
   </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
+  <data name="&gt;&gt;NewButton.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=5.0.5.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
+  <data name="&gt;&gt;NewButton.Parent" xml:space="preserve">
     <value>groupBox1</value>
   </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;NewButton.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <data name="SaveButton.Location" type="System.Drawing.Point, System.Drawing.Primitives">
@@ -599,7 +599,7 @@
     <value>2</value>
   </data>
   <data name="HouseBox2.TextAlign" type="System.Windows.Forms.HorizontalAlignment, System.Windows.Forms">
-    <value>Right</value>
+    <value>Center</value>
   </data>
   <data name="&gt;&gt;HouseBox2.Name" xml:space="preserve">
     <value>HouseBox2</value>
@@ -869,7 +869,7 @@
     <value>NoControl</value>
   </data>
   <data name="label7.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>336, 80</value>
+    <value>193, 80</value>
   </data>
   <data name="label7.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>47, 14</value>
@@ -902,7 +902,7 @@
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>339, 65</value>
+    <value>198, 65</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>46, 18</value>
@@ -935,7 +935,7 @@
     <value>NoControl</value>
   </data>
   <data name="label2.Location" type="System.Drawing.Point, System.Drawing.Primitives">
-    <value>203, 65</value>
+    <value>348, 65</value>
   </data>
   <data name="label2.Size" type="System.Drawing.Size, System.Drawing.Primitives">
     <value>29, 18</value>

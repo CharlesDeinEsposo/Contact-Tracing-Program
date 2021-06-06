@@ -31,7 +31,7 @@ namespace Contact_Tracing_Program
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.button2 = new System.Windows.Forms.Button();
+            this.NewButton = new System.Windows.Forms.Button();
             this.SaveButton = new System.Windows.Forms.Button();
             this.DateGroup = new System.Windows.Forms.GroupBox();
             this.DateBox3 = new System.Windows.Forms.TextBox();
@@ -75,7 +75,7 @@ namespace Contact_Tracing_Program
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.NewButton);
             this.groupBox1.Controls.Add(this.SaveButton);
             this.groupBox1.Controls.Add(this.DateGroup);
             this.groupBox1.Controls.Add(this.AddressGroup);
@@ -86,11 +86,12 @@ namespace Contact_Tracing_Program
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // button2
+            // NewButton
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            resources.ApplyResources(this.NewButton, "NewButton");
+            this.NewButton.Name = "NewButton";
+            this.NewButton.UseVisualStyleBackColor = true;
+            this.NewButton.Click += new System.EventHandler(this.NewButton_Click);
             // 
             // SaveButton
             // 
@@ -235,7 +236,6 @@ namespace Contact_Tracing_Program
             // 
             // SexBox
             // 
-            this.SexBox.FormattingEnabled = true;
             this.SexBox.Items.AddRange(new object[] {
             resources.GetString("SexBox.Items"),
             resources.GetString("SexBox.Items1")});
@@ -316,7 +316,6 @@ namespace Contact_Tracing_Program
             // 
             resources.ApplyResources(this.NameBox1, "NameBox1");
             this.NameBox1.Name = "NameBox1";
-            this.NameBox1.TextChanged += new System.EventHandler(this.SaveButton_Click);
             // 
             // Form1
             // 
@@ -377,7 +376,7 @@ namespace Contact_Tracing_Program
         private System.Windows.Forms.Label label16;
         private System.Windows.Forms.TextBox DateBox3;
         private System.Windows.Forms.TextBox DateBox2;
-        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button NewButton;
         private System.Windows.Forms.Button SaveButton;
     }
 }

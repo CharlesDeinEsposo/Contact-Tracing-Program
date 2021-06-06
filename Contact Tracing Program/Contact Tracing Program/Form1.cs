@@ -26,23 +26,46 @@ namespace Contact_Tracing_Program
         private void SaveButton_Click(object sender, EventArgs e)
         {
             StreamWriter outputfile;
-            outputfile = File.CreateText("ContactTracing.txt");
-            outputfile.WriteLine(NameBox1);
-            outputfile.WriteLine(NameBox2);
-            outputfile.WriteLine(NameBox3);
-            outputfile.WriteLine(AgeBox);
-            outputfile.WriteLine(SexBox);
-            outputfile.WriteLine(TempBox);
-            outputfile.WriteLine(HouseBox1);
-            outputfile.WriteLine(HouseBox2);
-            outputfile.WriteLine(HouseBox3);
-            outputfile.WriteLine(HouseBox4);
-            outputfile.WriteLine(HouseBox5);
-            outputfile.WriteLine(DateBox1);
-            outputfile.WriteLine(DateBox2);
-            outputfile.WriteLine(DateBox3);
+            outputfile = File.AppendText("ContactTracing.txt");
+            //Name
+            outputfile.WriteLine(" ");
+            outputfile.Write("Name: " + NameBox1.Text + " ");
+            outputfile.Write(NameBox2.Text + " ");
+            outputfile.WriteLine(NameBox3.Text);
+            //
+            outputfile.WriteLine("Age: " + AgeBox.Text);
+            outputfile.WriteLine("Sex: " + SexBox.Text);
+            outputfile.WriteLine("Temperature: " + TempBox.Text);
+            //Address
+            outputfile.Write("Address: " + HouseBox1.Text + ", ");
+            outputfile.Write(HouseBox2.Text + ", ");
+            outputfile.Write(HouseBox3.Text + " City" +  ", ");
+            outputfile.Write(HouseBox4.Text + ", ");
+            outputfile.WriteLine(HouseBox5.Text);
+            //Date
+            outputfile.Write("Date: " + DateBox1.Text + " ");
+            outputfile.Write(DateBox2.Text + ", ");
+            outputfile.WriteLine(DateBox3.Text);
 
             outputfile.Close();
+        }
+
+        private void NewButton_Click(object sender, EventArgs e)
+        {
+            NameBox1.Text = "";
+            NameBox2.Text = "";
+            NameBox3.Text = "";
+            AgeBox.Text = "";
+            SexBox.Text = "";
+            TempBox.Text = "";
+            HouseBox1.Text = "";
+            HouseBox2.Text = "";
+            HouseBox3.Text = "";
+            HouseBox4.Text = "";
+            HouseBox5.Text = "";
+            DateBox1.Text = "";
+            DateBox2.Text = "";
+            DateBox3.Text = "";
         }
     }
 }
