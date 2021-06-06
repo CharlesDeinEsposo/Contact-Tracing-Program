@@ -1,0 +1,14 @@
+System.Windows.Forms.TextBox, Text: Charles 
+System.Windows.Forms.TextBox, Text: Esposo
+System.Windows.Forms.TextBox, Text: Simbulan
+System.Windows.Forms.TextBox, Text: 21
+System.Windows.Forms.ComboBox, Items.Count: 2
+System.Windows.Forms.TextBox, Text: 37
+System.Windows.Forms.TextBox, Text: 25 Natib
+System.Windows.Forms.TextBox, Text: Barangka Itaas
+System.Windows.Forms.TextBox, Text: Mandaluyong
+System.Windows.Forms.TextBox, Text: NCR
+System.Windows.Forms.TextBox, Text: 1550
+System.Windows.Forms.ComboBox, Items.Count: 12
+System.Windows.Forms.TextBox, Text: 27
+System.Windows.Forms.TextBox, Text: 2021

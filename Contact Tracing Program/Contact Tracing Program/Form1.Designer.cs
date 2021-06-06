@@ -31,97 +31,114 @@ namespace Contact_Tracing_Program
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
-            this.textBox7 = new System.Windows.Forms.TextBox();
-            this.textBox12 = new System.Windows.Forms.TextBox();
-            this.comboBox2 = new System.Windows.Forms.ComboBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.SaveButton = new System.Windows.Forms.Button();
+            this.DateGroup = new System.Windows.Forms.GroupBox();
+            this.DateBox3 = new System.Windows.Forms.TextBox();
+            this.DateBox2 = new System.Windows.Forms.TextBox();
+            this.DateBox1 = new System.Windows.Forms.ComboBox();
             this.label10 = new System.Windows.Forms.Label();
             this.label12 = new System.Windows.Forms.Label();
             this.label16 = new System.Windows.Forms.Label();
-            this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.AddressGroup = new System.Windows.Forms.GroupBox();
             this.label13 = new System.Windows.Forms.Label();
             this.label14 = new System.Windows.Forms.Label();
             this.label15 = new System.Windows.Forms.Label();
-            this.textBox9 = new System.Windows.Forms.TextBox();
-            this.textBox10 = new System.Windows.Forms.TextBox();
-            this.textBox11 = new System.Windows.Forms.TextBox();
+            this.HouseBox5 = new System.Windows.Forms.TextBox();
+            this.HouseBox4 = new System.Windows.Forms.TextBox();
+            this.HouseBox3 = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.label11 = new System.Windows.Forms.Label();
-            this.textBox5 = new System.Windows.Forms.TextBox();
-            this.textBox8 = new System.Windows.Forms.TextBox();
-            this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.HouseBox2 = new System.Windows.Forms.TextBox();
+            this.HouseBox1 = new System.Windows.Forms.TextBox();
+            this.ASTGroup = new System.Windows.Forms.GroupBox();
+            this.SexBox = new System.Windows.Forms.ComboBox();
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox4 = new System.Windows.Forms.TextBox();
-            this.textBox6 = new System.Windows.Forms.TextBox();
-            this.NameBox = new System.Windows.Forms.GroupBox();
+            this.TempBox = new System.Windows.Forms.TextBox();
+            this.AgeBox = new System.Windows.Forms.TextBox();
+            this.NameGroup = new System.Windows.Forms.GroupBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label1 = new System.Windows.Forms.Label();
-            this.textBox3 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.NameBox3 = new System.Windows.Forms.TextBox();
+            this.NameBox2 = new System.Windows.Forms.TextBox();
+            this.NameBox1 = new System.Windows.Forms.TextBox();
             this.groupBox1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
-            this.groupBox3.SuspendLayout();
-            this.groupBox2.SuspendLayout();
-            this.NameBox.SuspendLayout();
+            this.DateGroup.SuspendLayout();
+            this.AddressGroup.SuspendLayout();
+            this.ASTGroup.SuspendLayout();
+            this.NameGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // groupBox1
             // 
-            this.groupBox1.Controls.Add(this.groupBox4);
-            this.groupBox1.Controls.Add(this.groupBox3);
-            this.groupBox1.Controls.Add(this.groupBox2);
-            this.groupBox1.Controls.Add(this.NameBox);
+            this.groupBox1.Controls.Add(this.button2);
+            this.groupBox1.Controls.Add(this.SaveButton);
+            this.groupBox1.Controls.Add(this.DateGroup);
+            this.groupBox1.Controls.Add(this.AddressGroup);
+            this.groupBox1.Controls.Add(this.ASTGroup);
+            this.groupBox1.Controls.Add(this.NameGroup);
             resources.ApplyResources(this.groupBox1, "groupBox1");
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // groupBox4
+            // button2
             // 
-            this.groupBox4.Controls.Add(this.textBox7);
-            this.groupBox4.Controls.Add(this.textBox12);
-            this.groupBox4.Controls.Add(this.comboBox2);
-            this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Controls.Add(this.label12);
-            this.groupBox4.Controls.Add(this.label16);
-            resources.ApplyResources(this.groupBox4, "groupBox4");
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.TabStop = false;
+            resources.ApplyResources(this.button2, "button2");
+            this.button2.Name = "button2";
+            this.button2.UseVisualStyleBackColor = true;
             // 
-            // textBox7
+            // SaveButton
             // 
-            resources.ApplyResources(this.textBox7, "textBox7");
-            this.textBox7.Name = "textBox7";
+            resources.ApplyResources(this.SaveButton, "SaveButton");
+            this.SaveButton.Name = "SaveButton";
+            this.SaveButton.UseVisualStyleBackColor = true;
+            this.SaveButton.Click += new System.EventHandler(this.SaveButton_Click);
             // 
-            // textBox12
+            // DateGroup
             // 
-            resources.ApplyResources(this.textBox12, "textBox12");
-            this.textBox12.Name = "textBox12";
+            this.DateGroup.Controls.Add(this.DateBox3);
+            this.DateGroup.Controls.Add(this.DateBox2);
+            this.DateGroup.Controls.Add(this.DateBox1);
+            this.DateGroup.Controls.Add(this.label10);
+            this.DateGroup.Controls.Add(this.label12);
+            this.DateGroup.Controls.Add(this.label16);
+            resources.ApplyResources(this.DateGroup, "DateGroup");
+            this.DateGroup.Name = "DateGroup";
+            this.DateGroup.TabStop = false;
             // 
-            // comboBox2
+            // DateBox3
             // 
-            this.comboBox2.FormattingEnabled = true;
-            this.comboBox2.Items.AddRange(new object[] {
-            resources.GetString("comboBox2.Items"),
-            resources.GetString("comboBox2.Items1"),
-            resources.GetString("comboBox2.Items2"),
-            resources.GetString("comboBox2.Items3"),
-            resources.GetString("comboBox2.Items4"),
-            resources.GetString("comboBox2.Items5"),
-            resources.GetString("comboBox2.Items6"),
-            resources.GetString("comboBox2.Items7"),
-            resources.GetString("comboBox2.Items8"),
-            resources.GetString("comboBox2.Items9"),
-            resources.GetString("comboBox2.Items10"),
-            resources.GetString("comboBox2.Items11")});
-            resources.ApplyResources(this.comboBox2, "comboBox2");
-            this.comboBox2.Name = "comboBox2";
+            resources.ApplyResources(this.DateBox3, "DateBox3");
+            this.DateBox3.Name = "DateBox3";
+            // 
+            // DateBox2
+            // 
+            resources.ApplyResources(this.DateBox2, "DateBox2");
+            this.DateBox2.Name = "DateBox2";
+            // 
+            // DateBox1
+            // 
+            this.DateBox1.FormattingEnabled = true;
+            this.DateBox1.Items.AddRange(new object[] {
+            resources.GetString("DateBox1.Items"),
+            resources.GetString("DateBox1.Items1"),
+            resources.GetString("DateBox1.Items2"),
+            resources.GetString("DateBox1.Items3"),
+            resources.GetString("DateBox1.Items4"),
+            resources.GetString("DateBox1.Items5"),
+            resources.GetString("DateBox1.Items6"),
+            resources.GetString("DateBox1.Items7"),
+            resources.GetString("DateBox1.Items8"),
+            resources.GetString("DateBox1.Items9"),
+            resources.GetString("DateBox1.Items10"),
+            resources.GetString("DateBox1.Items11")});
+            resources.ApplyResources(this.DateBox1, "DateBox1");
+            this.DateBox1.Name = "DateBox1";
             // 
             // label10
             // 
@@ -138,21 +155,21 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.label16, "label16");
             this.label16.Name = "label16";
             // 
-            // groupBox3
+            // AddressGroup
             // 
-            this.groupBox3.Controls.Add(this.label13);
-            this.groupBox3.Controls.Add(this.label14);
-            this.groupBox3.Controls.Add(this.label15);
-            this.groupBox3.Controls.Add(this.textBox9);
-            this.groupBox3.Controls.Add(this.textBox10);
-            this.groupBox3.Controls.Add(this.textBox11);
-            this.groupBox3.Controls.Add(this.label9);
-            this.groupBox3.Controls.Add(this.label11);
-            this.groupBox3.Controls.Add(this.textBox5);
-            this.groupBox3.Controls.Add(this.textBox8);
-            resources.ApplyResources(this.groupBox3, "groupBox3");
-            this.groupBox3.Name = "groupBox3";
-            this.groupBox3.TabStop = false;
+            this.AddressGroup.Controls.Add(this.label13);
+            this.AddressGroup.Controls.Add(this.label14);
+            this.AddressGroup.Controls.Add(this.label15);
+            this.AddressGroup.Controls.Add(this.HouseBox5);
+            this.AddressGroup.Controls.Add(this.HouseBox4);
+            this.AddressGroup.Controls.Add(this.HouseBox3);
+            this.AddressGroup.Controls.Add(this.label9);
+            this.AddressGroup.Controls.Add(this.label11);
+            this.AddressGroup.Controls.Add(this.HouseBox2);
+            this.AddressGroup.Controls.Add(this.HouseBox1);
+            resources.ApplyResources(this.AddressGroup, "AddressGroup");
+            this.AddressGroup.Name = "AddressGroup";
+            this.AddressGroup.TabStop = false;
             // 
             // label13
             // 
@@ -169,20 +186,20 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.label15, "label15");
             this.label15.Name = "label15";
             // 
-            // textBox9
+            // HouseBox5
             // 
-            resources.ApplyResources(this.textBox9, "textBox9");
-            this.textBox9.Name = "textBox9";
+            resources.ApplyResources(this.HouseBox5, "HouseBox5");
+            this.HouseBox5.Name = "HouseBox5";
             // 
-            // textBox10
+            // HouseBox4
             // 
-            resources.ApplyResources(this.textBox10, "textBox10");
-            this.textBox10.Name = "textBox10";
+            resources.ApplyResources(this.HouseBox4, "HouseBox4");
+            this.HouseBox4.Name = "HouseBox4";
             // 
-            // textBox11
+            // HouseBox3
             // 
-            resources.ApplyResources(this.textBox11, "textBox11");
-            this.textBox11.Name = "textBox11";
+            resources.ApplyResources(this.HouseBox3, "HouseBox3");
+            this.HouseBox3.Name = "HouseBox3";
             // 
             // label9
             // 
@@ -194,36 +211,36 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.label11, "label11");
             this.label11.Name = "label11";
             // 
-            // textBox5
+            // HouseBox2
             // 
-            resources.ApplyResources(this.textBox5, "textBox5");
-            this.textBox5.Name = "textBox5";
+            resources.ApplyResources(this.HouseBox2, "HouseBox2");
+            this.HouseBox2.Name = "HouseBox2";
             // 
-            // textBox8
+            // HouseBox1
             // 
-            resources.ApplyResources(this.textBox8, "textBox8");
-            this.textBox8.Name = "textBox8";
+            resources.ApplyResources(this.HouseBox1, "HouseBox1");
+            this.HouseBox1.Name = "HouseBox1";
             // 
-            // groupBox2
+            // ASTGroup
             // 
-            this.groupBox2.Controls.Add(this.comboBox1);
-            this.groupBox2.Controls.Add(this.label4);
-            this.groupBox2.Controls.Add(this.label5);
-            this.groupBox2.Controls.Add(this.label6);
-            this.groupBox2.Controls.Add(this.textBox4);
-            this.groupBox2.Controls.Add(this.textBox6);
-            resources.ApplyResources(this.groupBox2, "groupBox2");
-            this.groupBox2.Name = "groupBox2";
-            this.groupBox2.TabStop = false;
+            this.ASTGroup.Controls.Add(this.SexBox);
+            this.ASTGroup.Controls.Add(this.label4);
+            this.ASTGroup.Controls.Add(this.label5);
+            this.ASTGroup.Controls.Add(this.label6);
+            this.ASTGroup.Controls.Add(this.TempBox);
+            this.ASTGroup.Controls.Add(this.AgeBox);
+            resources.ApplyResources(this.ASTGroup, "ASTGroup");
+            this.ASTGroup.Name = "ASTGroup";
+            this.ASTGroup.TabStop = false;
             // 
-            // comboBox1
+            // SexBox
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
+            this.SexBox.FormattingEnabled = true;
+            this.SexBox.Items.AddRange(new object[] {
+            resources.GetString("SexBox.Items"),
+            resources.GetString("SexBox.Items1")});
+            resources.ApplyResources(this.SexBox, "SexBox");
+            this.SexBox.Name = "SexBox";
             // 
             // label4
             // 
@@ -240,28 +257,28 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.label6, "label6");
             this.label6.Name = "label6";
             // 
-            // textBox4
+            // TempBox
             // 
-            resources.ApplyResources(this.textBox4, "textBox4");
-            this.textBox4.Name = "textBox4";
+            resources.ApplyResources(this.TempBox, "TempBox");
+            this.TempBox.Name = "TempBox";
             // 
-            // textBox6
+            // AgeBox
             // 
-            resources.ApplyResources(this.textBox6, "textBox6");
-            this.textBox6.Name = "textBox6";
+            resources.ApplyResources(this.AgeBox, "AgeBox");
+            this.AgeBox.Name = "AgeBox";
             // 
-            // NameBox
+            // NameGroup
             // 
-            this.NameBox.Controls.Add(this.label7);
-            this.NameBox.Controls.Add(this.label3);
-            this.NameBox.Controls.Add(this.label2);
-            this.NameBox.Controls.Add(this.label1);
-            this.NameBox.Controls.Add(this.textBox3);
-            this.NameBox.Controls.Add(this.textBox2);
-            this.NameBox.Controls.Add(this.textBox1);
-            resources.ApplyResources(this.NameBox, "NameBox");
-            this.NameBox.Name = "NameBox";
-            this.NameBox.TabStop = false;
+            this.NameGroup.Controls.Add(this.label7);
+            this.NameGroup.Controls.Add(this.label3);
+            this.NameGroup.Controls.Add(this.label2);
+            this.NameGroup.Controls.Add(this.label1);
+            this.NameGroup.Controls.Add(this.NameBox3);
+            this.NameGroup.Controls.Add(this.NameBox2);
+            this.NameGroup.Controls.Add(this.NameBox1);
+            resources.ApplyResources(this.NameGroup, "NameGroup");
+            this.NameGroup.Name = "NameGroup";
+            this.NameGroup.TabStop = false;
             // 
             // label7
             // 
@@ -285,20 +302,21 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.label1, "label1");
             this.label1.Name = "label1";
             // 
-            // textBox3
+            // NameBox3
             // 
-            resources.ApplyResources(this.textBox3, "textBox3");
-            this.textBox3.Name = "textBox3";
+            resources.ApplyResources(this.NameBox3, "NameBox3");
+            this.NameBox3.Name = "NameBox3";
             // 
-            // textBox2
+            // NameBox2
             // 
-            resources.ApplyResources(this.textBox2, "textBox2");
-            this.textBox2.Name = "textBox2";
+            resources.ApplyResources(this.NameBox2, "NameBox2");
+            this.NameBox2.Name = "NameBox2";
             // 
-            // textBox1
+            // NameBox1
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            resources.ApplyResources(this.NameBox1, "NameBox1");
+            this.NameBox1.Name = "NameBox1";
+            this.NameBox1.TextChanged += new System.EventHandler(this.SaveButton_Click);
             // 
             // Form1
             // 
@@ -311,14 +329,14 @@ namespace Contact_Tracing_Program
             this.MaximizeBox = false;
             this.Name = "Form1";
             this.groupBox1.ResumeLayout(false);
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
-            this.groupBox3.ResumeLayout(false);
-            this.groupBox3.PerformLayout();
-            this.groupBox2.ResumeLayout(false);
-            this.groupBox2.PerformLayout();
-            this.NameBox.ResumeLayout(false);
-            this.NameBox.PerformLayout();
+            this.DateGroup.ResumeLayout(false);
+            this.DateGroup.PerformLayout();
+            this.AddressGroup.ResumeLayout(false);
+            this.AddressGroup.PerformLayout();
+            this.ASTGroup.ResumeLayout(false);
+            this.ASTGroup.PerformLayout();
+            this.NameGroup.ResumeLayout(false);
+            this.NameGroup.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -326,39 +344,41 @@ namespace Contact_Tracing_Program
         #endregion
 
         private System.Windows.Forms.GroupBox groupBox1;
-        private System.Windows.Forms.GroupBox NameBox;
+        private System.Windows.Forms.GroupBox NameGroup;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.TextBox textBox3;
-        private System.Windows.Forms.TextBox textBox2;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.GroupBox groupBox2;
+        private System.Windows.Forms.TextBox NameBox3;
+        private System.Windows.Forms.TextBox NameBox2;
+        private System.Windows.Forms.TextBox NameBox1;
+        private System.Windows.Forms.GroupBox ASTGroup;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox4;
-        private System.Windows.Forms.TextBox textBox6;
+        private System.Windows.Forms.TextBox TempBox;
+        private System.Windows.Forms.TextBox AgeBox;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.GroupBox groupBox3;
+        private System.Windows.Forms.ComboBox SexBox;
+        private System.Windows.Forms.GroupBox AddressGroup;
         private System.Windows.Forms.Label label13;
         private System.Windows.Forms.Label label14;
         private System.Windows.Forms.Label label15;
-        private System.Windows.Forms.TextBox textBox9;
-        private System.Windows.Forms.TextBox textBox10;
-        private System.Windows.Forms.TextBox textBox11;
+        private System.Windows.Forms.TextBox HouseBox5;
+        private System.Windows.Forms.TextBox HouseBox4;
+        private System.Windows.Forms.TextBox HouseBox3;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.TextBox textBox5;
-        private System.Windows.Forms.TextBox textBox8;
-        private System.Windows.Forms.GroupBox groupBox4;
-        private System.Windows.Forms.ComboBox comboBox2;
+        private System.Windows.Forms.TextBox HouseBox2;
+        private System.Windows.Forms.TextBox HouseBox1;
+        private System.Windows.Forms.GroupBox DateGroup;
+        private System.Windows.Forms.ComboBox DateBox1;
         private System.Windows.Forms.Label label10;
         private System.Windows.Forms.Label label12;
         private System.Windows.Forms.Label label16;
-        private System.Windows.Forms.TextBox textBox7;
-        private System.Windows.Forms.TextBox textBox12;
+        private System.Windows.Forms.TextBox DateBox3;
+        private System.Windows.Forms.TextBox DateBox2;
+        private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button SaveButton;
     }
 }
 
