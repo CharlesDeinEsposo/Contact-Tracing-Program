@@ -13,6 +13,7 @@ namespace Contact_Tracing_Program
 {
     public partial class Form1 : Form
     {
+      
         public Form1()
         {
             InitializeComponent();
@@ -25,6 +26,8 @@ namespace Contact_Tracing_Program
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
+            Button b = (Button)sender;
+
             StreamWriter outputfile;
             outputfile = File.AppendText("ContactTracing.txt");
             //Name
@@ -48,10 +51,16 @@ namespace Contact_Tracing_Program
             outputfile.WriteLine(DateBox3.Text);
 
             outputfile.Close();
+
+            b.Enabled = false;
+            
         }
 
         private void NewButton_Click(object sender, EventArgs e)
         {
+            Button c = (Button)sender;
+            SaveButton.Enabled = true;
+
             NameBox1.Text = "";
             NameBox2.Text = "";
             NameBox3.Text = "";
@@ -66,6 +75,7 @@ namespace Contact_Tracing_Program
             DateBox1.Text = "";
             DateBox2.Text = "";
             DateBox3.Text = "";
+
         }
     }
 }
