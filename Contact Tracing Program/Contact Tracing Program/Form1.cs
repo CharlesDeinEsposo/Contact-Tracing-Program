@@ -30,59 +30,59 @@ namespace Contact_Tracing_Program
             {
                 if (NameBox1.Text == "")
                 {
-                    MessageBox.Show("Please enter your first name.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (NameBox3.Text == "")
                 {
-                    MessageBox.Show("Please enter your last name.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (AgeBox.Text == "")
                 {
-                    MessageBox.Show("Please enter your age.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (SexBox.Text == "")
                 {
-                    MessageBox.Show("Please enter your gender.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (TempBox.Text == "")
                 {
-                    MessageBox.Show("Please enter your temperature.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (ContactBox1.Text == "")
                 {
-                    MessageBox.Show("Please enter your phone number.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (HouseBox1.Text == "")
                 {
-                    MessageBox.Show("Please enter your street and house number.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (HouseBox2.Text == "")
                 {
-                    MessageBox.Show("Please enter your barangay / village.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (HouseBox3.Text == "")
                 {
-                    MessageBox.Show("Please enter your city / municipality.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (HouseBox4.Text == "")
                 {
-                    MessageBox.Show("Please enter your province.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (HouseBox5.Text == "")
                 {
-                    MessageBox.Show("Please enter your zip code.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (DateBox1.Text == "")
                 {
-                    MessageBox.Show("Please put the current month.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (DateBox2.Text == "")
                 {
-                    MessageBox.Show("Please put the current day.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else if (DateBox3.Text == "")
                 {
-                    MessageBox.Show("Please put the current year.");
+                    MessageBox.Show("Please put an input on the required fields.");
                 }
                 else
                 {
@@ -124,26 +124,40 @@ namespace Contact_Tracing_Program
 
         private void NewButton_Click(object sender, EventArgs e)
         {
-            Button c = (Button)sender;
             SaveButton.Enabled = true;
 
-            NameBox1.Text = "";
-            NameBox2.Text = "";
-            NameBox3.Text = "";
-            AgeBox.Text = "";
-            SexBox.Text = "";
-            TempBox.Text = "";
-            ContactBox1.Text = "";
-            ContactBox2.Text = "";
-            HouseBox1.Text = "";
-            HouseBox2.Text = "";
-            HouseBox3.Text = "";
-            HouseBox4.Text = "";
-            HouseBox5.Text = "";
-            DateBox1.Text = "";
-            DateBox2.Text = "";
-            DateBox3.Text = "";
-
+            NameBox1.Clear();
+            NameBox2.Clear();
+            NameBox3.Clear();
+            AgeBox.Clear();
+            TempBox.Clear();
+            ContactBox1.Clear();
+            ContactBox2.Clear();
+            HouseBox1.Clear();
+            HouseBox2.Clear();
+            HouseBox3.Clear();
+            HouseBox4.Clear();
+            HouseBox5.Clear();
+            DateBox2.Clear();
+            DateBox3.Clear();
+            //SexBox Reset
+            SexBox.Items.Clear();
+            SexBox.Items.Add("Male");
+            SexBox.Items.Add("Female");
+            //DateBox Reset
+            DateBox1.Items.Clear();
+            DateBox1.Items.Add("January");
+            DateBox1.Items.Add("February");
+            DateBox1.Items.Add("March");
+            DateBox1.Items.Add("April");
+            DateBox1.Items.Add("May");
+            DateBox1.Items.Add("June");
+            DateBox1.Items.Add("July");
+            DateBox1.Items.Add("August");
+            DateBox1.Items.Add("September");
+            DateBox1.Items.Add("October");
+            DateBox1.Items.Add("November");
+            DateBox1.Items.Add("December");
         }
     }
 }

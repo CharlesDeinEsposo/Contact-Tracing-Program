@@ -1,7 +1,0 @@
- 
-Name: Charles Dein  Esposo
-Age: 21
-Sex: Male
-Temperature: 37
-Address: 25 Natib, Barangka Itaas, Mandaluyong, Metro Manila, 1550
-Date: June 7, 2021
