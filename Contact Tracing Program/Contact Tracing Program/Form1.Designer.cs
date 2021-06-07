@@ -66,11 +66,18 @@ namespace Contact_Tracing_Program
             this.NameBox3 = new System.Windows.Forms.TextBox();
             this.NameBox2 = new System.Windows.Forms.TextBox();
             this.NameBox1 = new System.Windows.Forms.TextBox();
+            this.ContactGroup = new System.Windows.Forms.GroupBox();
+            this.ContactBox2 = new System.Windows.Forms.Label();
+            this.ContactBox1 = new System.Windows.Forms.Label();
+            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.label8 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             this.DateGroup.SuspendLayout();
             this.AddressGroup.SuspendLayout();
             this.ASTGroup.SuspendLayout();
             this.NameGroup.SuspendLayout();
+            this.ContactGroup.SuspendLayout();
             this.SuspendLayout();
             // 
             // SexBox
@@ -84,6 +91,7 @@ namespace Contact_Tracing_Program
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.ContactGroup);
             this.groupBox1.Controls.Add(this.NewButton);
             this.groupBox1.Controls.Add(this.SaveButton);
             this.groupBox1.Controls.Add(this.DateGroup);
@@ -319,6 +327,44 @@ namespace Contact_Tracing_Program
             resources.ApplyResources(this.NameBox1, "NameBox1");
             this.NameBox1.Name = "NameBox1";
             // 
+            // ContactGroup
+            // 
+            this.ContactGroup.Controls.Add(this.label8);
+            this.ContactGroup.Controls.Add(this.textBox1);
+            this.ContactGroup.Controls.Add(this.ContactBox2);
+            this.ContactGroup.Controls.Add(this.ContactBox1);
+            this.ContactGroup.Controls.Add(this.textBox2);
+            resources.ApplyResources(this.ContactGroup, "ContactGroup");
+            this.ContactGroup.Name = "ContactGroup";
+            this.ContactGroup.TabStop = false;
+            // 
+            // ContactBox2
+            // 
+            resources.ApplyResources(this.ContactBox2, "ContactBox2");
+            this.ContactBox2.Name = "ContactBox2";
+            // 
+            // ContactBox1
+            // 
+            resources.ApplyResources(this.ContactBox1, "ContactBox1");
+            this.ContactBox1.Name = "ContactBox1";
+            // 
+            // textBox2
+            // 
+            resources.ApplyResources(this.textBox2, "textBox2");
+            this.textBox2.Name = "textBox2";
+            // 
+            // textBox1
+            // 
+            resources.ApplyResources(this.textBox1, "textBox1");
+            this.textBox1.Name = "textBox1";
+            // 
+            // label8
+            // 
+            resources.ApplyResources(this.label8, "label8");
+            this.label8.BackColor = System.Drawing.Color.Transparent;
+            this.label8.ForeColor = System.Drawing.Color.Red;
+            this.label8.Name = "label8";
+            // 
             // Form1
             // 
             resources.ApplyResources(this, "$this");
@@ -338,6 +384,8 @@ namespace Contact_Tracing_Program
             this.ASTGroup.PerformLayout();
             this.NameGroup.ResumeLayout(false);
             this.NameGroup.PerformLayout();
+            this.ContactGroup.ResumeLayout(false);
+            this.ContactGroup.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -380,6 +428,12 @@ namespace Contact_Tracing_Program
         private System.Windows.Forms.TextBox DateBox2;
         private System.Windows.Forms.Button NewButton;
         private System.Windows.Forms.Button SaveButton;
+        private System.Windows.Forms.GroupBox ContactGroup;
+        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.Label ContactBox2;
+        private System.Windows.Forms.Label ContactBox1;
+        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.Label label8;
     }
 }
 
