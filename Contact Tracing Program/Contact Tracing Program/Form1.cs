@@ -125,7 +125,6 @@ namespace Contact_Tracing_Program
         private void NewButton_Click(object sender, EventArgs e)
         {
             SaveButton.Enabled = true;
-
             NameBox1.Clear();
             NameBox2.Clear();
             NameBox3.Clear();
