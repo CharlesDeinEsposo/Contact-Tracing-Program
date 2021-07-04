@@ -17,3 +17,22 @@ C:\Users\Charles\source\repos\Contact-Tracing-Program\Contact Tracing Program\Co
 C:\Users\Charles\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.pdb
 C:\Users\Charles\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.genruntimeconfig.cache
 C:\Users\Charles\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact_Tracing_Program.Properties.Resources.resources
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\Contact Tracing Program.exe
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\Contact Tracing Program.deps.json
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\Contact Tracing Program.runtimeconfig.json
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\Contact Tracing Program.runtimeconfig.dev.json
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\Contact Tracing Program.dll
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\ref\Contact Tracing Program.dll
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\bin\Debug\net5.0-windows\Contact Tracing Program.pdb
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.csproj.AssemblyReference.cache
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact_Tracing_Program.Form1.resources
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact_Tracing_Program.Properties.Resources.resources
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.csproj.GenerateResource.cache
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.AssemblyInfoInputs.cache
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.AssemblyInfo.cs
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.csproj.CoreCompileInputs.cache
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.dll
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\ref\Contact Tracing Program.dll
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.pdb
+C:\Users\charl\source\repos\Contact-Tracing-Program\Contact Tracing Program\Contact Tracing Program\obj\Debug\net5.0-windows\Contact Tracing Program.genruntimeconfig.cache

@@ -28,61 +28,17 @@ namespace Contact_Tracing_Program
         {
 
             {
-                if (NameBox1.Text == "")
+                if (NameBox1.Text == "" || NameBox3.Text == "" || AgeBox.Text == "" || SexBox.Text == "" || TempBox.Text == "" || ContactBox1.Text == "")
                 {
                     MessageBox.Show("Please put an input on the required fields.");
                 }
-                else if (NameBox3.Text == "")
+                else if (HouseBox1.Text == "" || HouseBox2.Text == "" || HouseBox3.Text == "" || HouseBox4.Text == "" || HouseBox5.Text == "")
                 {
-                    MessageBox.Show("Please put an input on the required fields.");
+                    MessageBox.Show("Please put an input on the required Address fields.");
                 }
-                else if (AgeBox.Text == "")
+                else if (DateBox1.Text == "" || DateBox2.Text == "" || DateBox3.Text == "")
                 {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (SexBox.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (TempBox.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (ContactBox1.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (HouseBox1.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (HouseBox2.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (HouseBox3.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (HouseBox4.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (HouseBox5.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (DateBox1.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (DateBox2.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
-                }
-                else if (DateBox3.Text == "")
-                {
-                    MessageBox.Show("Please put an input on the required fields.");
+                    MessageBox.Show("Please put an input on the required Date fields.");
                 }
                 else
                 {
@@ -94,7 +50,7 @@ namespace Contact_Tracing_Program
                     StreamWriter outputfile;
                     outputfile = File.AppendText("ContactTracing.txt");
                     //Name
-                    outputfile.WriteLine(" ");
+                    outputfile.WriteLine("============================================ ");
                     outputfile.Write("Name: " + NameBox1.Text + " ");
                     outputfile.Write(NameBox2.Text + " ");
                     outputfile.WriteLine(NameBox3.Text);
@@ -158,5 +114,6 @@ namespace Contact_Tracing_Program
             DateBox1.Items.Add("November");
             DateBox1.Items.Add("December");
         }
-    }
+
+    } 
 }
