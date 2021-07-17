@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Diagnostics;
 using System.IO;
 using System.Linq;
 using System.Text;
@@ -13,20 +14,16 @@ namespace Contact_Tracing_Program
 {
     public partial class Form1 : Form
     {
-      
         public Form1()
         {
             InitializeComponent();
         }
-
         private void groupBox1_Enter(object sender, EventArgs e)
         {
-
         }
 
         private void SaveButton_Click(object sender, EventArgs e)
         {
-
             {
                 if (NameBox1.Text == "" || NameBox3.Text == "" || AgeBox.Text == "" || SexBox.Text == "" || TempBox.Text == "" || ContactBox1.Text == "")
                 {
@@ -50,7 +47,7 @@ namespace Contact_Tracing_Program
                     StreamWriter outputfile;
                     outputfile = File.AppendText("ContactTracing.txt");
                     //Name
-                    outputfile.WriteLine("============================================ ");
+                    outputfile.WriteLine("============================================================================================== ");
                     outputfile.Write("Name: " + NameBox1.Text + " ");
                     outputfile.Write(NameBox2.Text + " ");
                     outputfile.WriteLine(NameBox3.Text);
@@ -71,13 +68,10 @@ namespace Contact_Tracing_Program
                     outputfile.Write("Date: " + DateBox1.Text + " ");
                     outputfile.Write(DateBox2.Text + ", ");
                     outputfile.WriteLine(DateBox3.Text);
-
                     outputfile.Close();
-
                 }
             }
         }
-
         private void NewButton_Click(object sender, EventArgs e)
         {
             SaveButton.Enabled = true;
@@ -115,5 +109,9 @@ namespace Contact_Tracing_Program
             DateBox1.Items.Add("December");
         }
 
+        private void OpenDirectory_Click(object sender, EventArgs e)
+        {
+            Process.Start("notepad.exe", "C:\\Users\\charl\\source\\repos\\Contact-Tracing-Program\\Contact Tracing Program\\Contact Tracing Program\\bin\\Debug\\net5.0-windows\\ContactTracing.txt");
+        }
     } 
 }

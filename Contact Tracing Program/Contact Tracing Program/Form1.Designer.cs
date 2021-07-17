@@ -32,6 +32,7 @@ namespace Contact_Tracing_Program
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form1));
             this.SexBox = new System.Windows.Forms.ComboBox();
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.OpenDirectory = new System.Windows.Forms.Button();
             this.ContactGroup = new System.Windows.Forms.GroupBox();
             this.label8 = new System.Windows.Forms.Label();
             this.ContactBox2 = new System.Windows.Forms.TextBox();
@@ -92,6 +93,7 @@ namespace Contact_Tracing_Program
             // 
             // groupBox1
             // 
+            this.groupBox1.Controls.Add(this.OpenDirectory);
             this.groupBox1.Controls.Add(this.ContactGroup);
             this.groupBox1.Controls.Add(this.NewButton);
             this.groupBox1.Controls.Add(this.SaveButton);
@@ -103,6 +105,13 @@ namespace Contact_Tracing_Program
             this.groupBox1.Name = "groupBox1";
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
+            // 
+            // OpenDirectory
+            // 
+            resources.ApplyResources(this.OpenDirectory, "OpenDirectory");
+            this.OpenDirectory.Name = "OpenDirectory";
+            this.OpenDirectory.UseVisualStyleBackColor = true;
+            this.OpenDirectory.Click += new System.EventHandler(this.OpenDirectory_Click);
             // 
             // ContactGroup
             // 
@@ -435,6 +444,7 @@ namespace Contact_Tracing_Program
         private System.Windows.Forms.Label PHONE;
         private System.Windows.Forms.TextBox ContactBox1;
         private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Button OpenDirectory;
     }
 }
 
